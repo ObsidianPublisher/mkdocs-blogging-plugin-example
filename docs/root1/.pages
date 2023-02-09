@@ -1,0 +1,11 @@
+categories:
+    name: "Category"
+    size: 2
+    sort:
+      from: old
+      by: revision
+    paging: true
+    show_total: false
+    full_content: false
+    theme:
+        name: card

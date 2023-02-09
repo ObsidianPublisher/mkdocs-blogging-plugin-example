@@ -23,6 +23,9 @@ plugins:
       # GLOBAL CONFIG: configs apply to all categories
       time_format: '%d/%m/%y %H:%M:%S'
       meta_time_format: '%Y-%m-%d %H:%M:%S'
+      config_filename: .pages
+      exclude_index: true
+      use_root_dirs: true
       features:
         tags:
           index_page: tags.md

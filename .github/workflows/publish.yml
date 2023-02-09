@@ -14,4 +14,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
+      - run: pip install -e git+git://github.com/ObsidianPublisher/mkdocs-blogging-plugin.git@root_pages_opt#egg=mkdocs-blogging-plugin
       - run: mkdocs gh-deploy --force
